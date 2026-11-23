@@ -1,0 +1,105 @@
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 36px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.login-brand {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #2563eb;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.login-brand h1 {
+  margin: 12px 0 4px;
+}
+
+.login-brand p,
+.login-subtitle {
+  color: #94a3b8;
+}
+
+.login-card h2 {
+  margin-bottom: 6px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.login-card input {
+  padding: 12px;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  background: #0f172a;
+  color: white;
+  font-size: 14px;
+}
+
+.login-card button {
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-card button:hover {
+  background: #1d4ed8;
+}
+
+.login-error {
+  color: #f87171;
+  font-size: 13px;
+}
+
+.demo-accounts {
+  margin-top: 28px;
+  padding: 14px;
+  background: #0f172a;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #cbd5e1;
+}
+
+.demo-accounts h3 {
+  margin: 0 0 8px;
+  color: #f8fafc;
+}
+
+.demo-accounts p {
+  margin: 5px 0;
+  overflow-wrap: anywhere;
+}
